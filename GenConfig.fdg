@@ -69,8 +69,8 @@
       }
     },
     "Docs": {
-      "Csv": true,
-      "Wmf": true
+      "Csv": false,
+      "Wmf": false
     },
     "Metadata": {
       "Crp": false,
