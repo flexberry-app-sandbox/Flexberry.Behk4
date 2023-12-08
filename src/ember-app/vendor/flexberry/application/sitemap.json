@@ -4,50 +4,74 @@
   "items": [
     {
       "link": null,
-      "menuName": "behk4",
-      "caption": "Behk4",
-      "title": "Behk4",
+      "menuName": "запись",
+      "caption": "Запись",
+      "title": "Запись",
+      "children": [
+        {
+          "link": "i-i-s-behk4-документ-заказа-l",
+          "menuName": null,
+          "caption": "Документ заказа",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "контрагенты",
+      "caption": "Контрагенты",
+      "title": "Контрагенты",
+      "children": [
+        {
+          "link": "i-i-s-behk4-контрагенты-l",
+          "menuName": null,
+          "caption": "Контрагенты",
+          "title": "Контрагенты",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудники",
+      "caption": "Сотрудники",
+      "title": "Сотрудники",
       "children": [
         {
           "link": "i-i-s-behk4-должности-l",
           "menuName": null,
           "caption": "Должности",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-behk4-контрагенты-l",
-          "menuName": null,
-          "caption": "Контрагенты",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-behk4-питания-l",
-          "menuName": null,
-          "caption": "Питания",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-behk4-ингредиенты-l",
-          "menuName": null,
-          "caption": "Ингредиенты",
-          "title": "",
+          "title": "Должности",
           "children": null
         },
         {
           "link": "i-i-s-behk4-сотрудники-l",
           "menuName": null,
           "caption": "Сотрудники",
-          "title": "",
+          "title": "Сотрудники",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "питание",
+      "caption": "Питание",
+      "title": "Питание",
+      "children": [
+        {
+          "link": "i-i-s-behk4-ингредиенты-l",
+          "menuName": null,
+          "caption": "Ингредиенты",
+          "title": "Ингредиенты",
           "children": null
         },
         {
-          "link": "i-i-s-behk4-документ-заказа-l",
+          "link": "i-i-s-behk4-питания-l",
           "menuName": null,
-          "caption": "Документ заказа",
-          "title": "",
+          "caption": "Питания",
+          "title": "Питания",
           "children": null
         }
       ]

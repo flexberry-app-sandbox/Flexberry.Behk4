@@ -100,6 +100,46 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        запись: {
+          caption: 'Запись',
+          title: 'Запись',
+          'i-i-s-behk4-документ-заказа-l': {
+            caption: 'Документ заказа',
+            title: ''
+          }
+        },
+        контрагенты: {
+          caption: 'Контрагенты',
+          title: 'Контрагенты',
+          'i-i-s-behk4-контрагенты-l': {
+            caption: 'Контрагенты',
+            title: 'Контрагенты'
+          }
+        },
+        сотрудники: {
+          caption: 'Сотрудники',
+          title: 'Сотрудники',
+          'i-i-s-behk4-должности-l': {
+            caption: 'Должности',
+            title: 'Должности'
+          },
+          'i-i-s-behk4-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: 'Сотрудники'
+          }
+        },
+        питание: {
+          caption: 'Питание',
+          title: 'Питание',
+          'i-i-s-behk4-ингредиенты-l': {
+            caption: 'Ингредиенты',
+            title: 'Ингредиенты'
+          },
+          'i-i-s-behk4-питания-l': {
+            caption: 'Питания',
+            title: 'Питания'
+          }
+        },
         behk4: {
           caption: 'Behk4',
           title: 'Behk4',

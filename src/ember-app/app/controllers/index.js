@@ -16,43 +16,61 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.behk4.caption'),
-          title: i18n.t('forms.application.sitemap.behk4.title'),
+          caption: i18n.t('forms.application.sitemap.запись.caption'),
+          title: i18n.t('forms.application.sitemap.запись.title'),
+          children: [{
+            link: 'i-i-s-behk4-документ-заказа-l',
+            caption: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.caption'),
+            title: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.title'),
+            icon: 'folder open',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.контрагенты.caption'),
+          title: i18n.t('forms.application.sitemap.контрагенты.title'),
+          children: [{
+            link: 'i-i-s-behk4-контрагенты-l',
+            caption: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.caption'),
+            title: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.title'),
+            icon: 'calendar',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.сотрудники.caption'),
+          title: i18n.t('forms.application.sitemap.сотрудники.title'),
           children: [{
             link: 'i-i-s-behk4-должности-l',
-            caption: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-должности-l.caption'),
-            title: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-должности-l.title'),
-            icon: 'chart bar',
-            children: null
-          }, {
-            link: 'i-i-s-behk4-контрагенты-l',
-            caption: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-контрагенты-l.caption'),
-            title: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-контрагенты-l.title'),
-            icon: 'file',
-            children: null
-          }, {
-            link: 'i-i-s-behk4-питания-l',
-            caption: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-питания-l.caption'),
-            title: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-питания-l.title'),
-            icon: 'phone',
-            children: null
-          }, {
-            link: 'i-i-s-behk4-ингредиенты-l',
-            caption: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-ингредиенты-l.caption'),
-            title: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-ингредиенты-l.title'),
-            icon: 'chart line',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.title'),
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-behk4-сотрудники-l',
-            caption: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-сотрудники-l.caption'),
-            title: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-сотрудники-l.title'),
-            icon: 'list',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.title'),
+            icon: 'paperclip',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.питание.caption'),
+          title: i18n.t('forms.application.sitemap.питание.title'),
+          children: [{
+            link: 'i-i-s-behk4-ингредиенты-l',
+            caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.caption'),
+            title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.title'),
+            icon: 'building',
             children: null
           }, {
-            link: 'i-i-s-behk4-документ-заказа-l',
-            caption: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-документ-заказа-l.caption'),
-            title: i18n.t('forms.application.sitemap.behk4.i-i-s-behk4-документ-заказа-l.title'),
-            icon: 'calendar',
+            link: 'i-i-s-behk4-питания-l',
+            caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.caption'),
+            title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.title'),
+            icon: 'chart bar',
             children: null
           }]
         }
