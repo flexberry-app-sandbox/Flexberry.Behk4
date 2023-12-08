@@ -32,10 +32,16 @@ namespace IIS.Behk4
             "Сумма as \'Сумма\'",
             "Питания as \'Питания\'",
             "Питания.КодПитания as \'Код питания\'",
+            "Питания.ВидПитания",
             "Сотрудники as \'Сотрудники\'",
-            "Сотрудники.Фамилия as \'Фамилия\'"}, Hidden=new string[] {
+            "Сотрудники.Фамилия as \'Фамилия\'",
+            "Сотрудники.Имя",
+            "Сотрудники.Отчество"}, Hidden=new string[] {
             "Питания.КодПитания",
-            "Сотрудники.Фамилия"})]
+            "Питания.ВидПитания",
+            "Сотрудники.Фамилия",
+            "Сотрудники.Имя",
+            "Сотрудники.Отчество"})]
     [MasterViewDefineAttribute("ЗаписьE", "Питания", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "КодПитания")]
     [MasterViewDefineAttribute("ЗаписьE", "Сотрудники", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     public class Запись : ICSSoft.STORMNET.DataObject
