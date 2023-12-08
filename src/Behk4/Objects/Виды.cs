@@ -12,6 +12,7 @@ namespace IIS.Behk4
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -25,6 +26,7 @@ namespace IIS.Behk4
     public enum Виды
     {
         
+        [Caption("Поставщик")]
         Поставщик,
     }
 }

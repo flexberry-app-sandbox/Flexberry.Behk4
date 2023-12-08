@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-behk4-документ-заказа-l',
             caption: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.caption'),
             title: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.title'),
-            icon: 'folder open',
+            icon: 'edit',
             children: null
           }]
         }, {
@@ -40,7 +40,7 @@ export default Controller.extend({
             link: 'i-i-s-behk4-контрагенты-l',
             caption: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.caption'),
             title: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.title'),
-            icon: 'calendar',
+            icon: 'folder',
             children: null
           }]
         }, {
@@ -52,13 +52,13 @@ export default Controller.extend({
             link: 'i-i-s-behk4-должности-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.title'),
-            icon: 'tasks',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-behk4-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.title'),
-            icon: 'paperclip',
+            icon: 'table',
             children: null
           }]
         }, {
@@ -70,13 +70,13 @@ export default Controller.extend({
             link: 'i-i-s-behk4-ингредиенты-l',
             caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.title'),
-            icon: 'building',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-behk4-питания-l',
             caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.caption'),
             title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.title'),
-            icon: 'chart bar',
+            icon: 'archive',
             children: null
           }]
         }
