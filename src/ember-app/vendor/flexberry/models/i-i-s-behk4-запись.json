@@ -69,7 +69,7 @@
             {
               "name": "видПитания",
               "caption": "",
-              "hidden": true,
+              "hidden": false,
               "index": 3
             }
           ],
@@ -96,13 +96,13 @@
             {
               "name": "имя",
               "caption": "",
-              "hidden": true,
+              "hidden": false,
               "index": 6
             },
             {
               "name": "отчество",
               "caption": "",
-              "hidden": true,
+              "hidden": false,
               "index": 7
             }
           ],

@@ -86,12 +86,12 @@ export let defineProjections = function (modelClass) {
       сумма: attr('Сумма', { index: 0 }),
       питания: belongsTo('i-i-s-behk4-питания', 'Питания', {
         кодПитания: attr('Код питания', { index: 2, hidden: true }),
-        видПитания: attr('', { index: 3, hidden: true })
+        видПитания: attr('', { index: 3 })
       }, { index: 1, displayMemberPath: 'кодПитания' }),
       сотрудники: belongsTo('i-i-s-behk4-сотрудники', 'Сотрудники', {
         фамилия: attr('Фамилия', { index: 5, hidden: true }),
-        имя: attr('', { index: 6, hidden: true }),
-        отчество: attr('', { index: 7, hidden: true })
+        имя: attr('', { index: 6 }),
+        отчество: attr('', { index: 7 })
       }, { index: 4, displayMemberPath: 'фамилия' })
     })
   });

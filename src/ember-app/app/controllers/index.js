@@ -22,7 +22,7 @@ export default Controller.extend({
             link: 'i-i-s-behk4-документ-заказа-l',
             caption: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.caption'),
             title: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.title'),
-            icon: 'calendar',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -34,7 +34,7 @@ export default Controller.extend({
             link: 'i-i-s-behk4-контрагенты-l',
             caption: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.caption'),
             title: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.title'),
-            icon: 'paperclip',
+            icon: 'chart line',
             children: null
           }]
         }, {
@@ -46,13 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-behk4-должности-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.title'),
-            icon: 'chart line',
+            icon: 'folder',
             children: null
           }, {
             link: 'i-i-s-behk4-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.title'),
-            icon: 'phone',
+            icon: 'address card',
             children: null
           }]
         }, {
@@ -64,13 +64,13 @@ export default Controller.extend({
             link: 'i-i-s-behk4-ингредиенты-l',
             caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.title'),
-            icon: 'building',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-behk4-питания-l',
             caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.caption'),
             title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.title'),
-            icon: 'suitcase',
+            icon: 'folder',
             children: null
           }]
         }

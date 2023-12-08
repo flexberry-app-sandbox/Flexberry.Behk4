@@ -38,10 +38,7 @@ namespace IIS.Behk4
             "Сотрудники.Имя",
             "Сотрудники.Отчество"}, Hidden=new string[] {
             "Питания.КодПитания",
-            "Питания.ВидПитания",
-            "Сотрудники.Фамилия",
-            "Сотрудники.Имя",
-            "Сотрудники.Отчество"})]
+            "Сотрудники.Фамилия"})]
     [MasterViewDefineAttribute("ЗаписьE", "Питания", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "КодПитания")]
     [MasterViewDefineAttribute("ЗаписьE", "Сотрудники", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фамилия")]
     public class Запись : ICSSoft.STORMNET.DataObject
