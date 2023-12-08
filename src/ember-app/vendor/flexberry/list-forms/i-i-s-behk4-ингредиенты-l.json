@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behk4-ингредиенты-e",
+  "editForm": "i-i-s-behk4-ингредиенты-e",
+  "external": false,
+  "caption": "Ингредиенты",
+  "name": "IISBehk4ИнгредиентыL",
+  "className": "ИнгредиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behk4-ингредиенты",
+      "modelProjection": "ИнгредиентыL"
+    }
+  ]
+}

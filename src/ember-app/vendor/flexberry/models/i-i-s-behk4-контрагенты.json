@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISBehk4Контрагенты",
+  "modelName": "i-i-s-behk4-контрагенты",
+  "className": "Контрагенты",
+  "nameSpace": "IIS.Behk4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "вид",
+      "type": "i-i-s-behk4-виды",
+      "flexberryType": "Виды",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодКонтиагента",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтрагентыE",
+      "modelName": "i-i-s-behk4-контрагенты",
+      "attrs": [
+        {
+          "name": "кодКонтиагента",
+          "caption": "Код контиагента",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "вид",
+          "caption": "Вид",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КонтрагентыL",
+      "modelName": "i-i-s-behk4-контрагенты",
+      "attrs": [
+        {
+          "name": "кодКонтиагента",
+          "caption": "Код контиагента",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "вид",
+          "caption": "Вид",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behk4-сотрудники-e",
+  "editForm": "i-i-s-behk4-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISBehk4СотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behk4-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

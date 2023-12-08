@@ -1,0 +1,1 @@
+docker-compose -p behk4-java up -d

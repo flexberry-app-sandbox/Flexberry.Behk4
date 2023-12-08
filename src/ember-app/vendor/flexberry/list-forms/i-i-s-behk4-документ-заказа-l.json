@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behk4-документ-заказа-e",
+  "editForm": "i-i-s-behk4-документ-заказа-e",
+  "external": false,
+  "caption": "Документ заказа",
+  "name": "IISBehk4ДокументЗаказаL",
+  "className": "ДокументЗаказаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behk4-документ-заказа",
+      "modelProjection": "ДокументЗаказаL"
+    }
+  ]
+}

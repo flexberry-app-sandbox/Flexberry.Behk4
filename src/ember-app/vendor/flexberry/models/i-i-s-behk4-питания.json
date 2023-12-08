@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISBehk4Питания",
+  "modelName": "i-i-s-behk4-питания",
+  "className": "Питания",
+  "nameSpace": "IIS.Behk4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "видПитания",
+      "type": "i-i-s-behk4-питание",
+      "flexberryType": "Питание",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодПитания",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "составБлюда",
+      "relatedTo": "i-i-s-behk4-состав-блюда",
+      "inverse": "питания"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ПитанияE",
+      "modelName": "i-i-s-behk4-питания",
+      "attrs": [
+        {
+          "name": "кодПитания",
+          "caption": "Код питания",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "видПитания",
+          "caption": "Вид питания",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СоставБлюдаE",
+          "caption": "Состав блюда",
+          "name": "составБлюда",
+          "relatedTo": "i-i-s-behk4-состав-блюда",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ПитанияL",
+      "modelName": "i-i-s-behk4-питания",
+      "attrs": [
+        {
+          "name": "кодПитания",
+          "caption": "Код питания",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "видПитания",
+          "caption": "Вид питания",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

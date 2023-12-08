@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "ингредиенты",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставБлюда.Ингредиенты",
+      "projection": "ИнгредиентыL",
+      "detailModelName": "i-i-s-behk4-состав-блюда"
+    }
+  ],
+  "external": false,
+  "caption": "Питания",
+  "name": "IISBehk4ПитанияE",
+  "className": "ПитанияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behk4-питания",
+      "modelProjection": "ПитанияE"
+    }
+  ]
+}

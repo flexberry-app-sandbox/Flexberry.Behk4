@@ -1,0 +1,225 @@
+﻿{
+  "name": "IISBehk4ДокументЗаказа",
+  "modelName": "i-i-s-behk4-документ-заказа",
+  "className": "ДокументЗаказа",
+  "nameSpace": "IIS.Behk4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "датаДокумента",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "заказОтправ",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "заказПолучен",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "заказСобран",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодДокумента",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "сумма",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "контрагенты",
+      "relatedTo": "i-i-s-behk4-контрагенты",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "запись",
+      "relatedTo": "i-i-s-behk4-запись",
+      "inverse": "документЗаказа"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДокументЗаказаE",
+      "modelName": "i-i-s-behk4-документ-заказа",
+      "attrs": [
+        {
+          "name": "кодДокумента",
+          "caption": "Код документа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаДокумента",
+          "caption": "Дата документа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "заказСобран",
+          "caption": "Заказ собран",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "заказОтправ",
+          "caption": "Заказ отправлен",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "заказПолучен",
+          "caption": "Заказ получен",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Контрагенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Контрагенты",
+          "name": "контрагенты",
+          "relatedTo": "i-i-s-behk4-контрагенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "ЗаписьE",
+          "caption": "Запись",
+          "name": "запись",
+          "relatedTo": "i-i-s-behk4-запись",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ДокументЗаказаL",
+      "modelName": "i-i-s-behk4-документ-заказа",
+      "attrs": [
+        {
+          "name": "кодДокумента",
+          "caption": "Код документа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "датаДокумента",
+          "caption": "Дата документа",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "заказСобран",
+          "caption": "Заказ собран",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "заказОтправ",
+          "caption": "Заказ отправлен",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "заказПолучен",
+          "caption": "Заказ получен",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагенты",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Наименование",
+          "name": "контрагенты",
+          "relatedTo": "i-i-s-behk4-контрагенты",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

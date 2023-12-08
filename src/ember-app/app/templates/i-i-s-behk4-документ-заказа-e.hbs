@@ -1,0 +1,120 @@
+<h3 class="ui header">{{t "forms.i-i-s-behk4-документ-заказа-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодДокумента
+      class=(if (v-get validationModel "кодДокумента" "isInvalid") "error")
+      label=(t "forms.i-i-s-behk4-документ-заказа-e.кодДокумента-caption")
+      data-test-i-i-s-behk4-документ-заказа-e-кодДокумента=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодДокумента" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-behk4-документ-заказа-e.датаДокумента-caption"}}</label>
+    {{flexberry-simpledatetime
+      type="date"
+      readonly=readonly
+      value=model.датаДокумента
+      class=(if (v-get validationModel "датаДокумента" "isInvalid") "error")
+      data-test-i-i-s-behk4-документ-заказа-e-датаДокумента=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "датаДокумента" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.сумма
+      class=(if (v-get validationModel "сумма" "isInvalid") "error")
+      label=(t "forms.i-i-s-behk4-документ-заказа-e.сумма-caption")
+      data-test-i-i-s-behk4-документ-заказа-e-сумма=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сумма" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-behk4-документ-заказа-e.заказСобран-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.заказСобран
+      class=(if (v-get validationModel "заказСобран" "isInvalid") "error")
+      data-test-i-i-s-behk4-документ-заказа-e-заказСобран=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "заказСобран" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-behk4-документ-заказа-e.заказОтправ-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.заказОтправ
+      class=(if (v-get validationModel "заказОтправ" "isInvalid") "error")
+      data-test-i-i-s-behk4-документ-заказа-e-заказОтправ=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "заказОтправ" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-behk4-документ-заказа-e.заказПолучен-caption"}}</label>
+    {{flexberry-checkbox
+      readonly=readonly
+      value=model.заказПолучен
+      class=(if (v-get validationModel "заказПолучен" "isInvalid") "error")
+      data-test-i-i-s-behk4-документ-заказа-e-заказПолучен=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "заказПолучен" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-behk4-документ-заказа-e.контрагенты-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.контрагенты
+      displayAttributeName="наименование"
+      autocomplete=true
+      relationName="контрагенты"
+      projection="КонтрагентыL"
+      title=(t "forms.i-i-s-behk4-документ-заказа-e.контрагенты-caption")
+      readonly=readonly
+      componentName="контрагентыLookup"
+      class=(if (v-get validationModel "контрагенты" "isInvalid") "error")
+      data-test-i-i-s-behk4-документ-заказа-e-контрагенты=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "контрагенты" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-behk4-документ-заказа-e.запись-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="записьGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.запись
+      content=model.запись
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "запись" "isInvalid") "error")
+      data-test-i-i-s-behk4-документ-заказа-e-запись=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "запись" "message")}}
+  </div>
+</form>

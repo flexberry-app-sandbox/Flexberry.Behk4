@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Контрагенты",
+      "projection": "КонтрагентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "питания",
+      "displayAttributeName": "кодПитания",
+      "required": true,
+      "relationName": "Запись.Питания",
+      "projection": "ПитанияL",
+      "detailModelName": "i-i-s-behk4-запись"
+    },
+    {
+      "master": "сотрудники",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "Запись.Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": "i-i-s-behk4-запись"
+    }
+  ],
+  "external": false,
+  "caption": "Документ заказа",
+  "name": "IISBehk4ДокументЗаказаE",
+  "className": "ДокументЗаказаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behk4-документ-заказа",
+      "modelProjection": "ДокументЗаказаE"
+    }
+  ]
+}

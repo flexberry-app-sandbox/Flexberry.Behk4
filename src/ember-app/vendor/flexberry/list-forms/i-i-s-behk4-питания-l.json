@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behk4-питания-e",
+  "editForm": "i-i-s-behk4-питания-e",
+  "external": false,
+  "caption": "Питания",
+  "name": "IISBehk4ПитанияL",
+  "className": "ПитанияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behk4-питания",
+      "modelProjection": "ПитанияL"
+    }
+  ]
+}

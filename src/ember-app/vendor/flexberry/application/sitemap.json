@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Behk4",
+  "applicationTitle": "Behk4",
+  "items": [
+    {
+      "link": null,
+      "menuName": "behk4",
+      "caption": "Behk4",
+      "title": "Behk4",
+      "children": [
+        {
+          "link": "i-i-s-behk4-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behk4-контрагенты-l",
+          "menuName": null,
+          "caption": "Контрагенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behk4-питания-l",
+          "menuName": null,
+          "caption": "Питания",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behk4-ингредиенты-l",
+          "menuName": null,
+          "caption": "Ингредиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behk4-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behk4-документ-заказа-l",
+          "menuName": null,
+          "caption": "Документ заказа",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
