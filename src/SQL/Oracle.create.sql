@@ -71,6 +71,8 @@ CREATE TABLE "Питания"
 
 	"КодПитания" NUMBER(10) NULL,
 
+	"Наименования" NVARCHAR2(255) NULL,
+
 	"ВидПитания" NVARCHAR2(7) NULL,
 
 	 PRIMARY KEY ("primaryKey")

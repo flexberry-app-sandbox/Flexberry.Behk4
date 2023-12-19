@@ -2,7 +2,7 @@
 
 services:
   webapp:
-    image: behk4-java/app
+    image: destkijjsad-java/app
     build: ../main/webapp
     environment:
       DB_ADDR: app-postgres-db
@@ -17,7 +17,7 @@ services:
       - "8000:8000"
 
   app-postgres-db:
-    image: behk4-java/postgre-sql
+    image: destkijjsad-java/postgre-sql
     volumes:
       - DB:/var/lib/pgsql/data/
     ports:

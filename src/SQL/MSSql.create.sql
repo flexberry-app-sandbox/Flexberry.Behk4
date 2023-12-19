@@ -64,6 +64,8 @@ CREATE TABLE [Питания] (
 
 	 [КодПитания] INT  NULL,
 
+	 [Наименования] VARCHAR(255)  NULL,
+
 	 PRIMARY KEY ([primaryKey]))
 
 

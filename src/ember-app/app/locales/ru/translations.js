@@ -7,12 +7,24 @@ import IISBehk4ИнгредиентыLForm from './forms/i-i-s-behk4-ингре�
 import IISBehk4КонтрагентыLForm from './forms/i-i-s-behk4-контрагенты-l';
 import IISBehk4ПитанияLForm from './forms/i-i-s-behk4-питания-l';
 import IISBehk4СотрудникиLForm from './forms/i-i-s-behk4-сотрудники-l';
+import IISDestkijjSadДокументЗаказаLForm from './forms/i-i-s-destkijj-sad-документ-заказа-l';
+import IISDestkijjSadДолжностиLForm from './forms/i-i-s-destkijj-sad-должности-l';
+import IISDestkijjSadИнгредиентыLForm from './forms/i-i-s-destkijj-sad-ингредиенты-l';
+import IISDestkijjSadКонтрагентыLForm from './forms/i-i-s-destkijj-sad-контрагенты-l';
+import IISDestkijjSadПитанияLForm from './forms/i-i-s-destkijj-sad-питания-l';
+import IISDestkijjSadСотрудникиLForm from './forms/i-i-s-destkijj-sad-сотрудники-l';
 import IISBehk4ДокументЗаказаEForm from './forms/i-i-s-behk4-документ-заказа-e';
 import IISBehk4ДолжностиEForm from './forms/i-i-s-behk4-должности-e';
 import IISBehk4ИнгредиентыEForm from './forms/i-i-s-behk4-ингредиенты-e';
 import IISBehk4КонтрагентыEForm from './forms/i-i-s-behk4-контрагенты-e';
 import IISBehk4ПитанияEForm from './forms/i-i-s-behk4-питания-e';
 import IISBehk4СотрудникиEForm from './forms/i-i-s-behk4-сотрудники-e';
+import IISDestkijjSadДокументЗаказаEForm from './forms/i-i-s-destkijj-sad-документ-заказа-e';
+import IISDestkijjSadДолжностиEForm from './forms/i-i-s-destkijj-sad-должности-e';
+import IISDestkijjSadИнгредиентыEForm from './forms/i-i-s-destkijj-sad-ингредиенты-e';
+import IISDestkijjSadКонтрагентыEForm from './forms/i-i-s-destkijj-sad-контрагенты-e';
+import IISDestkijjSadПитанияEForm from './forms/i-i-s-destkijj-sad-питания-e';
+import IISDestkijjSadСотрудникиEForm from './forms/i-i-s-destkijj-sad-сотрудники-e';
 import IISBehk4ДокументЗаказаModel from './models/i-i-s-behk4-документ-заказа';
 import IISBehk4ДолжностиModel from './models/i-i-s-behk4-должности';
 import IISBehk4ЗаписьModel from './models/i-i-s-behk4-запись';
@@ -21,6 +33,14 @@ import IISBehk4КонтрагентыModel from './models/i-i-s-behk4-контр
 import IISBehk4ПитанияModel from './models/i-i-s-behk4-питания';
 import IISBehk4СоставБлюдаModel from './models/i-i-s-behk4-состав-блюда';
 import IISBehk4СотрудникиModel from './models/i-i-s-behk4-сотрудники';
+import IISDestkijjSadДокументЗаказаModel from './models/i-i-s-destkijj-sad-документ-заказа';
+import IISDestkijjSadДолжностиModel from './models/i-i-s-destkijj-sad-должности';
+import IISDestkijjSadЗаписьModel from './models/i-i-s-destkijj-sad-запись';
+import IISDestkijjSadИнгредиентыModel from './models/i-i-s-destkijj-sad-ингредиенты';
+import IISDestkijjSadКонтрагентыModel from './models/i-i-s-destkijj-sad-контрагенты';
+import IISDestkijjSadПитанияModel from './models/i-i-s-destkijj-sad-питания';
+import IISDestkijjSadСоставБлюдаModel from './models/i-i-s-destkijj-sad-состав-блюда';
+import IISDestkijjSadСотрудникиModel from './models/i-i-s-destkijj-sad-сотрудники';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -34,7 +54,15 @@ $.extend(true, translations, {
     'i-i-s-behk4-контрагенты': IISBehk4КонтрагентыModel,
     'i-i-s-behk4-питания': IISBehk4ПитанияModel,
     'i-i-s-behk4-состав-блюда': IISBehk4СоставБлюдаModel,
-    'i-i-s-behk4-сотрудники': IISBehk4СотрудникиModel
+    'i-i-s-behk4-сотрудники': IISBehk4СотрудникиModel,
+    'i-i-s-destkijj-sad-документ-заказа': IISDestkijjSadДокументЗаказаModel,
+    'i-i-s-destkijj-sad-должности': IISDestkijjSadДолжностиModel,
+    'i-i-s-destkijj-sad-запись': IISDestkijjSadЗаписьModel,
+    'i-i-s-destkijj-sad-ингредиенты': IISDestkijjSadИнгредиентыModel,
+    'i-i-s-destkijj-sad-контрагенты': IISDestkijjSadКонтрагентыModel,
+    'i-i-s-destkijj-sad-питания': IISDestkijjSadПитанияModel,
+    'i-i-s-destkijj-sad-состав-блюда': IISDestkijjSadСоставБлюдаModel,
+    'i-i-s-destkijj-sad-сотрудники': IISDestkijjSadСотрудникиModel
   },
 
   'application-name': 'Behk4',
@@ -103,6 +131,10 @@ $.extend(true, translations, {
         запись: {
           caption: 'Запись',
           title: 'Запись',
+          'i-i-s-destkijj-sad-документ-заказа-l': {
+            caption: 'Документ заказа',
+            title: ''
+          },
           'i-i-s-behk4-документ-заказа-l': {
             caption: 'Документ заказа',
             title: ''
@@ -111,6 +143,10 @@ $.extend(true, translations, {
         контрагенты: {
           caption: 'Контрагенты',
           title: 'Контрагенты',
+          'i-i-s-destkijj-sad-контрагенты-l': {
+            caption: 'Контрагенты',
+            title: 'Контрагенты'
+          },
           'i-i-s-behk4-контрагенты-l': {
             caption: 'Контрагенты',
             title: 'Контрагенты'
@@ -119,6 +155,14 @@ $.extend(true, translations, {
         сотрудники: {
           caption: 'Сотрудники',
           title: 'Сотрудники',
+          'i-i-s-destkijj-sad-должности-l': {
+            caption: 'Должности',
+            title: 'Должности'
+          },
+          'i-i-s-destkijj-sad-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: 'Сотрудники'
+          },
           'i-i-s-behk4-должности-l': {
             caption: 'Должности',
             title: 'Должности'
@@ -131,6 +175,14 @@ $.extend(true, translations, {
         питание: {
           caption: 'Питание',
           title: 'Питание',
+          'i-i-s-destkijj-sad-ингредиенты-l': {
+            caption: 'Ингредиенты',
+            title: 'Ингредиенты'
+          },
+          'i-i-s-destkijj-sad-питания-l': {
+            caption: 'Питания',
+            title: 'Питания'
+          },
           'i-i-s-behk4-ингредиенты-l': {
             caption: 'Ингредиенты',
             title: 'Ингредиенты'
@@ -185,12 +237,24 @@ $.extend(true, translations, {
     'i-i-s-behk4-контрагенты-l': IISBehk4КонтрагентыLForm,
     'i-i-s-behk4-питания-l': IISBehk4ПитанияLForm,
     'i-i-s-behk4-сотрудники-l': IISBehk4СотрудникиLForm,
+    'i-i-s-destkijj-sad-документ-заказа-l': IISDestkijjSadДокументЗаказаLForm,
+    'i-i-s-destkijj-sad-должности-l': IISDestkijjSadДолжностиLForm,
+    'i-i-s-destkijj-sad-ингредиенты-l': IISDestkijjSadИнгредиентыLForm,
+    'i-i-s-destkijj-sad-контрагенты-l': IISDestkijjSadКонтрагентыLForm,
+    'i-i-s-destkijj-sad-питания-l': IISDestkijjSadПитанияLForm,
+    'i-i-s-destkijj-sad-сотрудники-l': IISDestkijjSadСотрудникиLForm,
     'i-i-s-behk4-документ-заказа-e': IISBehk4ДокументЗаказаEForm,
     'i-i-s-behk4-должности-e': IISBehk4ДолжностиEForm,
     'i-i-s-behk4-ингредиенты-e': IISBehk4ИнгредиентыEForm,
     'i-i-s-behk4-контрагенты-e': IISBehk4КонтрагентыEForm,
     'i-i-s-behk4-питания-e': IISBehk4ПитанияEForm,
-    'i-i-s-behk4-сотрудники-e': IISBehk4СотрудникиEForm
+    'i-i-s-behk4-сотрудники-e': IISBehk4СотрудникиEForm,
+    'i-i-s-destkijj-sad-документ-заказа-e': IISDestkijjSadДокументЗаказаEForm,
+    'i-i-s-destkijj-sad-должности-e': IISDestkijjSadДолжностиEForm,
+    'i-i-s-destkijj-sad-ингредиенты-e': IISDestkijjSadИнгредиентыEForm,
+    'i-i-s-destkijj-sad-контрагенты-e': IISDestkijjSadКонтрагентыEForm,
+    'i-i-s-destkijj-sad-питания-e': IISDestkijjSadПитанияEForm,
+    'i-i-s-destkijj-sad-сотрудники-e': IISDestkijjSadСотрудникиEForm
   },
 
 });

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-destkijj-sad-должности-e",
+  "editForm": "i-i-s-destkijj-sad-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISDestkijjSadДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<h3 class="ui header">{{t "forms.i-i-s-destkijj-sad-питания-e.caption"}}</h3>
+
+<form class="ui form flexberry-vertical-form" role="form">
+  {{flexberry-error error=error}}
+  <div class="field">
+    <div class="flexberry-edit-panel">
+      {{#unless readonly}}
+        <button class="ui button save-button" {{action "save"}}>
+          {{t "forms.edit-form.save-button-text"}}
+        </button>
+        {{#unless model.isNew}}
+          <button class="ui button save-del-button" {{action "delete"}}>
+            {{t "forms.edit-form.delete-button-text"}}
+          </button>
+        {{/unless}}
+      {{/unless}}
+      <button class="ui button close-button" {{action "close"}}>
+        {{t "forms.edit-form.close-button-text"}}
+      </button>
+    </div>
+  </div>
+  <div class="field flexberry-validationsummary-container">
+    <div class="sixteen wide">
+      {{flexberry-validationsummary errors=(v-get validationObject "messages")}}
+    </div>
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.кодПитания
+      class=(if (v-get validationModel "кодПитания" "isInvalid") "error")
+      label=(t "forms.i-i-s-destkijj-sad-питания-e.кодПитания-caption")
+      data-test-i-i-s-destkijj-sad-питания-e-кодПитания=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "кодПитания" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.наименования
+      class=(if (v-get validationModel "наименования" "isInvalid") "error")
+      label=(t "forms.i-i-s-destkijj-sad-питания-e.наименования-caption")
+      data-test-i-i-s-destkijj-sad-питания-e-наименования=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "наименования" "message")}}
+  </div>
+  <div class="field" data-test-i-i-s-destkijj-sad-питания-e-видПитания="true">
+    <label>{{t "forms.i-i-s-destkijj-sad-питания-e.видПитания-caption"}}</label>
+    {{flexberry-dropdown
+      items=(flexberry-enum "i-i-s-destkijj-sad-питание")
+      value=model.видПитания
+      class=(if (v-get validationModel "видПитания" "isInvalid") "error")
+      readonly=readonly
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "видПитания" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-destkijj-sad-питания-e.составБлюда-caption"}}</label>
+    {{flexberry-groupedit
+      componentName="составБлюдаGroupEdit"
+      mainModelProjection=modelProjection
+      modelProjection=modelProjection.attributes.составБлюда
+      content=model.составБлюда
+      readonly=readonly
+      orderable=false
+      class=(if (v-get validationModel "составБлюда" "isInvalid") "error")
+      data-test-i-i-s-destkijj-sad-питания-e-составБлюда=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "составБлюда" "message")}}
+  </div>
+</form>

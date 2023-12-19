@@ -9,7 +9,7 @@
       "title": "Запись",
       "children": [
         {
-          "link": "i-i-s-behk4-документ-заказа-l",
+          "link": "i-i-s-destkijj-sad-документ-заказа-l",
           "menuName": null,
           "caption": "Документ заказа",
           "title": "",
@@ -24,7 +24,7 @@
       "title": "Контрагенты",
       "children": [
         {
-          "link": "i-i-s-behk4-контрагенты-l",
+          "link": "i-i-s-destkijj-sad-контрагенты-l",
           "menuName": null,
           "caption": "Контрагенты",
           "title": "Контрагенты",
@@ -39,14 +39,14 @@
       "title": "Сотрудники",
       "children": [
         {
-          "link": "i-i-s-behk4-должности-l",
+          "link": "i-i-s-destkijj-sad-должности-l",
           "menuName": null,
           "caption": "Должности",
           "title": "Должности",
           "children": null
         },
         {
-          "link": "i-i-s-behk4-сотрудники-l",
+          "link": "i-i-s-destkijj-sad-сотрудники-l",
           "menuName": null,
           "caption": "Сотрудники",
           "title": "Сотрудники",
@@ -61,14 +61,14 @@
       "title": "Питание",
       "children": [
         {
-          "link": "i-i-s-behk4-ингредиенты-l",
+          "link": "i-i-s-destkijj-sad-ингредиенты-l",
           "menuName": null,
           "caption": "Ингредиенты",
           "title": "Ингредиенты",
           "children": null
         },
         {
-          "link": "i-i-s-behk4-питания-l",
+          "link": "i-i-s-destkijj-sad-питания-l",
           "menuName": null,
           "caption": "Питания",
           "title": "Питания",

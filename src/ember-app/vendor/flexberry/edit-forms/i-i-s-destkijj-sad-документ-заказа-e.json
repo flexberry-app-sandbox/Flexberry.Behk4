@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Контрагенты",
+      "projection": "КонтрагентыL",
+      "detailModelName": null
+    },
+    {
+      "master": "питания",
+      "displayAttributeName": "кодПитания",
+      "required": true,
+      "relationName": "Запись.Питания",
+      "projection": "ПитанияL",
+      "detailModelName": "i-i-s-destkijj-sad-запись"
+    },
+    {
+      "master": "сотрудники",
+      "displayAttributeName": "фамилия",
+      "required": true,
+      "relationName": "Запись.Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": "i-i-s-destkijj-sad-запись"
+    }
+  ],
+  "external": false,
+  "caption": "Документ заказа",
+  "name": "IISDestkijjSadДокументЗаказаE",
+  "className": "ДокументЗаказаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-документ-заказа",
+      "modelProjection": "ДокументЗаказаE"
+    }
+  ]
+}

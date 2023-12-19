@@ -1,0 +1,9 @@
+﻿{
+  "nameSpace": "IIS.DestkijjSad",
+  "className": "Питание",
+  "enumObjects": {
+    "Завтрак": "Завтрак",
+    "Обед": "Обед",
+    "Ужин": "Ужин"
+  }
+}

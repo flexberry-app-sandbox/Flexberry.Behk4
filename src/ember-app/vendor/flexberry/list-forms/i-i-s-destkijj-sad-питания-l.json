@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-destkijj-sad-питания-e",
+  "editForm": "i-i-s-destkijj-sad-питания-e",
+  "external": false,
+  "caption": "Питания",
+  "name": "IISDestkijjSadПитанияL",
+  "className": "ПитанияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-питания",
+      "modelProjection": "ПитанияL"
+    }
+  ]
+}

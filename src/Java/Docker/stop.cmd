@@ -1,1 +1,1 @@
-docker-compose -p behk4-java down
+docker-compose -p destkijjsad-java down

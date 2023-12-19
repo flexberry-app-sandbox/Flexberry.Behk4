@@ -1,0 +1,129 @@
+﻿{
+  "name": "IISDestkijjSadЗапись",
+  "modelName": "i-i-s-destkijj-sad-запись",
+  "className": "Запись",
+  "nameSpace": "IIS.DestkijjSad",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "сумма",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "питания",
+      "relatedTo": "i-i-s-destkijj-sad-питания",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-destkijj-sad-сотрудники",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "документЗаказа",
+      "relatedTo": "i-i-s-destkijj-sad-документ-заказа",
+      "inverse": "запись"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаписьE",
+      "modelName": "i-i-s-destkijj-sad-запись",
+      "attrs": [
+        {
+          "name": "сумма",
+          "caption": "Сумма",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "КодПитания",
+          "lookupValueField": "кодПитания",
+          "relationName": "Питания",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "кодПитания",
+              "caption": "Код питания",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "наименования",
+              "caption": "Наименование питания",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "видПитания",
+              "caption": "Вид питания",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Питания",
+          "name": "питания",
+          "relatedTo": "i-i-s-destkijj-sad-питания",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 6
+            },
+            {
+              "name": "имя",
+              "caption": "",
+              "hidden": false,
+              "index": 7
+            },
+            {
+              "name": "отчество",
+              "caption": "",
+              "hidden": false,
+              "index": 8
+            }
+          ],
+          "index": 5,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-destkijj-sad-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

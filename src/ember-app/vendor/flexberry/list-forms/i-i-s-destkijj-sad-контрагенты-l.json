@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-destkijj-sad-контрагенты-e",
+  "editForm": "i-i-s-destkijj-sad-контрагенты-e",
+  "external": false,
+  "caption": "Контрагенты",
+  "name": "IISDestkijjSadКонтрагентыL",
+  "className": "КонтрагентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-контрагенты",
+      "modelProjection": "КонтрагентыL"
+    }
+  ]
+}

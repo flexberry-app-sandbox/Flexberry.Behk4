@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.DestkijjSad",
+  "className": "Полы",
+  "enumObjects": {
+    "Мужской": "Мужской",
+    "Женский": "Женский"
+  }
+}

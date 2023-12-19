@@ -36,6 +36,36 @@ Router.map(function () {
   { path: 'i-i-s-behk4-сотрудники-e/:id' });
   this.route('i-i-s-behk4-сотрудники-e.new',
   { path: 'i-i-s-behk4-сотрудники-e/new' });
+  this.route('i-i-s-destkijj-sad-документ-заказа-l');
+  this.route('i-i-s-destkijj-sad-документ-заказа-e',
+  { path: 'i-i-s-destkijj-sad-документ-заказа-e/:id' });
+  this.route('i-i-s-destkijj-sad-документ-заказа-e.new',
+  { path: 'i-i-s-destkijj-sad-документ-заказа-e/new' });
+  this.route('i-i-s-destkijj-sad-должности-l');
+  this.route('i-i-s-destkijj-sad-должности-e',
+  { path: 'i-i-s-destkijj-sad-должности-e/:id' });
+  this.route('i-i-s-destkijj-sad-должности-e.new',
+  { path: 'i-i-s-destkijj-sad-должности-e/new' });
+  this.route('i-i-s-destkijj-sad-ингредиенты-l');
+  this.route('i-i-s-destkijj-sad-ингредиенты-e',
+  { path: 'i-i-s-destkijj-sad-ингредиенты-e/:id' });
+  this.route('i-i-s-destkijj-sad-ингредиенты-e.new',
+  { path: 'i-i-s-destkijj-sad-ингредиенты-e/new' });
+  this.route('i-i-s-destkijj-sad-контрагенты-l');
+  this.route('i-i-s-destkijj-sad-контрагенты-e',
+  { path: 'i-i-s-destkijj-sad-контрагенты-e/:id' });
+  this.route('i-i-s-destkijj-sad-контрагенты-e.new',
+  { path: 'i-i-s-destkijj-sad-контрагенты-e/new' });
+  this.route('i-i-s-destkijj-sad-питания-l');
+  this.route('i-i-s-destkijj-sad-питания-e',
+  { path: 'i-i-s-destkijj-sad-питания-e/:id' });
+  this.route('i-i-s-destkijj-sad-питания-e.new',
+  { path: 'i-i-s-destkijj-sad-питания-e/new' });
+  this.route('i-i-s-destkijj-sad-сотрудники-l');
+  this.route('i-i-s-destkijj-sad-сотрудники-e',
+  { path: 'i-i-s-destkijj-sad-сотрудники-e/:id' });
+  this.route('i-i-s-destkijj-sad-сотрудники-e.new',
+  { path: 'i-i-s-destkijj-sad-сотрудники-e/new' });
 });
 
 export default Router;

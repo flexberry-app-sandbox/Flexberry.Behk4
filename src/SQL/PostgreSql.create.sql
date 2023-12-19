@@ -39,6 +39,7 @@ CREATE TABLE СоставБлюда (
 CREATE TABLE Питания (
  primaryKey UUID NOT NULL,
  КодПитания INT NULL,
+ Наименования VARCHAR(255) NULL,
  ВидПитания VARCHAR(7) NULL,
  PRIMARY KEY (primaryKey));
 

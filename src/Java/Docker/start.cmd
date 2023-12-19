@@ -1,1 +1,1 @@
-docker-compose -p behk4-java up -d
+docker-compose -p destkijjsad-java up -d

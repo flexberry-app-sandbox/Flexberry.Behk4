@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-destkijj-sad-документ-заказа-e",
+  "editForm": "i-i-s-destkijj-sad-документ-заказа-e",
+  "external": false,
+  "caption": "Документ заказа",
+  "name": "IISDestkijjSadДокументЗаказаL",
+  "className": "ДокументЗаказаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-документ-заказа",
+      "modelProjection": "ДокументЗаказаL"
+    }
+  ]
+}

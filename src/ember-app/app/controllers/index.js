@@ -19,10 +19,10 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.запись.caption'),
           title: i18n.t('forms.application.sitemap.запись.title'),
           children: [{
-            link: 'i-i-s-behk4-документ-заказа-l',
-            caption: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.caption'),
-            title: i18n.t('forms.application.sitemap.запись.i-i-s-behk4-документ-заказа-l.title'),
-            icon: 'building',
+            link: 'i-i-s-destkijj-sad-документ-заказа-l',
+            caption: i18n.t('forms.application.sitemap.запись.i-i-s-destkijj-sad-документ-заказа-l.caption'),
+            title: i18n.t('forms.application.sitemap.запись.i-i-s-destkijj-sad-документ-заказа-l.title'),
+            icon: 'chart line',
             children: null
           }]
         }, {
@@ -31,10 +31,10 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.контрагенты.caption'),
           title: i18n.t('forms.application.sitemap.контрагенты.title'),
           children: [{
-            link: 'i-i-s-behk4-контрагенты-l',
-            caption: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.caption'),
-            title: i18n.t('forms.application.sitemap.контрагенты.i-i-s-behk4-контрагенты-l.title'),
-            icon: 'chart line',
+            link: 'i-i-s-destkijj-sad-контрагенты-l',
+            caption: i18n.t('forms.application.sitemap.контрагенты.i-i-s-destkijj-sad-контрагенты-l.caption'),
+            title: i18n.t('forms.application.sitemap.контрагенты.i-i-s-destkijj-sad-контрагенты-l.title'),
+            icon: 'table',
             children: null
           }]
         }, {
@@ -43,16 +43,16 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.сотрудники.caption'),
           title: i18n.t('forms.application.sitemap.сотрудники.title'),
           children: [{
-            link: 'i-i-s-behk4-должности-l',
-            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.caption'),
-            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-должности-l.title'),
-            icon: 'folder',
+            link: 'i-i-s-destkijj-sad-должности-l',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-destkijj-sad-должности-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-destkijj-sad-должности-l.title'),
+            icon: 'edit',
             children: null
           }, {
-            link: 'i-i-s-behk4-сотрудники-l',
-            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.caption'),
-            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-behk4-сотрудники-l.title'),
-            icon: 'address card',
+            link: 'i-i-s-destkijj-sad-сотрудники-l',
+            caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-destkijj-sad-сотрудники-l.caption'),
+            title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-destkijj-sad-сотрудники-l.title'),
+            icon: 'building',
             children: null
           }]
         }, {
@@ -61,16 +61,15 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.питание.caption'),
           title: i18n.t('forms.application.sitemap.питание.title'),
           children: [{
-            link: 'i-i-s-behk4-ингредиенты-l',
-            caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.caption'),
-            title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-ингредиенты-l.title'),
-            icon: 'phone',
+            link: 'i-i-s-destkijj-sad-ингредиенты-l',
+            caption: i18n.t('forms.application.sitemap.питание.i-i-s-destkijj-sad-ингредиенты-l.caption'),
+            title: i18n.t('forms.application.sitemap.питание.i-i-s-destkijj-sad-ингредиенты-l.title'),
             children: null
           }, {
-            link: 'i-i-s-behk4-питания-l',
-            caption: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.caption'),
-            title: i18n.t('forms.application.sitemap.питание.i-i-s-behk4-питания-l.title'),
-            icon: 'folder',
+            link: 'i-i-s-destkijj-sad-питания-l',
+            caption: i18n.t('forms.application.sitemap.питание.i-i-s-destkijj-sad-питания-l.caption'),
+            title: i18n.t('forms.application.sitemap.питание.i-i-s-destkijj-sad-питания-l.title'),
+            icon: 'building',
             children: null
           }]
         }

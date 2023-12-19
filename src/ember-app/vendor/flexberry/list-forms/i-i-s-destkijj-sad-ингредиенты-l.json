@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-destkijj-sad-ингредиенты-e",
+  "editForm": "i-i-s-destkijj-sad-ингредиенты-e",
+  "external": false,
+  "caption": "Ингредиенты",
+  "name": "IISDestkijjSadИнгредиентыL",
+  "className": "ИнгредиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-ингредиенты",
+      "modelProjection": "ИнгредиентыL"
+    }
+  ]
+}

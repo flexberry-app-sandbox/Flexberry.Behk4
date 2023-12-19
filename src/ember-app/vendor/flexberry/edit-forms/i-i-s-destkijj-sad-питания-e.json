@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "ингредиенты",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "СоставБлюда.Ингредиенты",
+      "projection": "ИнгредиентыL",
+      "detailModelName": "i-i-s-destkijj-sad-состав-блюда"
+    }
+  ],
+  "external": false,
+  "caption": "Питания",
+  "name": "IISDestkijjSadПитанияE",
+  "className": "ПитанияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-destkijj-sad-питания",
+      "modelProjection": "ПитанияE"
+    }
+  ]
+}
